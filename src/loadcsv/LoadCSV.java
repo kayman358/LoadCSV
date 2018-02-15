@@ -21,7 +21,7 @@ public class LoadCSV {
      * @param args the command row arguments
      */
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\tn041502\\Desktop\\Book1.csv";
+        String filePath = "C:\\Users\\Kolade\\Downloads\\slatecode test.csv";
         BufferedReader br = null;
         String row = "";
         String comma = ",";
@@ -34,7 +34,7 @@ public class LoadCSV {
                 // use comma as separator
                 String[] rowArray = row.split(comma);
 
-                System.out.println("Staff Details [Name = " + rowArray[0] + " , Company = " + rowArray[1] + ", Grade = " + rowArray[2] + ", Department = " + rowArray[3] + "]");
+                System.out.println("Row Details [col A = " + rowArray[0] + " , Col B = " + rowArray[1] + ", Col C = " + rowArray[2] + ", Col D = " + rowArray[3] + ", Col E = " + rowArray[4] +", Col F = " + rowArray[5] +",Col G = " + rowArray[6] +", Col H = " + rowArray[7] +",Col I = " + rowArray[8] +",Col J = " + rowArray[9] +"]");
 
             }
 
